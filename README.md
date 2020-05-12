@@ -3,6 +3,8 @@
 I came up with this personal personal project to test my skills to the fullest and learn new things. In this project I scraped job postings related to the position of 'Data Scientist' from glassdoor.com,analysed the gathered data and framed a machine learning problem out of it. In the below write up I'll mention the details on what I learned. 
 I selected states of California,Washington,New York as major areas to find the roles.
 
+# Please read the readme.md file to understand what I found.
+
 ***The project consists of three main jupyter notebooks***
 
 1. **The first notebook** : scrape_data.ipynb is a python script for scraping job postings from glassdoor.com
