@@ -22,7 +22,7 @@ Glassdoor is a website where current and former employees anonymously review com
 In this part of the project I developed a webscraper which scrapes data from glassdoor.com.
 Here's how I went about creating it.
 1. The most important part of web scraping is understanding the website which your are scraping and by understanding I meant looking at the source code of the website in your browser.(I spent about 2 days understanding the structure of the website and locating the elements which I needed to find.
-2. The elements which I was gonna scrape were Company name,Job Title,Salary,Ratings,Job Description etc. The easiest part was to scrape the elements except job description because to see the whole job description one has to click on the company tab which contains job description.
+2. The elements which I was gonna scrape were Company name, Job Title, Salary, Ratings, Job Description etc. The easiest part was to scrape the elements except job description because to see the whole job description one has to click on the company tab which contains job description.
 ![img](https://github.com/Atharva-Phatak/Glassdoor-Jobs_Data-Analysis/blob/master/Images/Job_Desc.PNG)
 
 ***There were two approaches to deal with it*** : 
@@ -35,8 +35,8 @@ Here's how I went about creating it.
   
     * Interesting thing was all the details like job title,Company name,salary,etc were present in a Json file under </script> tag, so I       extracted the content of the json and got most of  my info.
 ![img](https://github.com/Atharva-Phatak/Glassdoor-Jobs_Data-Analysis/blob/master/Images/Json_ld.PNG)
-    * I found another class_ id for <div> tage which contained job description so I used it to extract the job description.
-5 After extracting the information I stored it in various .csv files according the search query.
+    * I found another class_ id for <div> tag which contained job description so I used it to extract the job description.
+After extracting the information I stored it in various .csv files according the search query.
   
 ## Stage II : Exploratory Data Analysis a.k.a EDA
 
@@ -46,7 +46,7 @@ I ran all of my code on deepnote, you should look them up.
 
 1) When I read  all the data from the CSV files. I found that it contained duplicated rows, so my first task was to delete them. After that pretty much the data was clean because of the good scraping we did.
 
-2)***Beginning of EDA***
+2) ***Beginning of EDA***
 
 There are 12 columns in the data they are as follows:
 1. Job_title: The title of job which you are applying to
